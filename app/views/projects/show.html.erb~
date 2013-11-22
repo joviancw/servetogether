@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>servetogether.in/</title>
+	
+    <!-- Bootstrap -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="assets/css/custom.css" rel="stylesheet" media="screen">
+
+	<link href="examples/carousel/carousel.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+	
+    <!-- Fonts -->	
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400,300,300italic' rel='stylesheet' type='text/css'>	
+	<!-- Font-Awesome -->
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" media="screen" />
+    <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="assets/css/font-awesome-ie7.css" media="screen" /><![endif]-->
+	
+    <!-- REVOLUTION BANNER CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="css/fullscreen.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+	
+    <!-- Picker UI-->	
+	<link rel="stylesheet" href="assets/css/jquery-ui.css" />	
+	
+	<!-- bin/jquery.slider.min.css -->
+	<link rel="stylesheet" href="plugins/jslider/css/jslider.css" type="text/css">
+	<link rel="stylesheet" href="plugins/jslider/css/jslider.round-blue.css" type="text/css">
+	
+    <!-- jQuery-->	
+    <script src="assets/js/jquery.v2.0.3.js"></script>
+	<script src="assets/js/jquery-ui.js"></script>	
+	
+	<!-- bin/jquery.slider.min.js -->
+	<script type="text/javascript" src="plugins/jslider/js/jshashtable-2.1_src.js"></script>
+	<script type="text/javascript" src="plugins/jslider/js/jquery.numberformatter-1.2.3.js"></script>
+	<script type="text/javascript" src="plugins/jslider/js/tmpl.js"></script>
+	<script type="text/javascript" src="plugins/jslider/js/jquery.dependClass-0.1.js"></script>
+	<script type="text/javascript" src="plugins/jslider/js/draggable-0.1.js"></script>
+	<script type="text/javascript" src="plugins/jslider/js/jquery.slider.js"></script>
+	<!-- end -->
+
+  </head>
+  <body id="top" class="thebg" >
+  
+  <!-- Top wrapper -->			  
+	<div class="navbar-wrapper2 navbar-fixed-top">
+      <div class="container">
+		<div class="navbar mtnav">
+
+			<div class="container">
+			  <!-- Navigation-->
+			  <div class="navbar-header">
+				<button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+				<a href="index.html" class="navbar-brand"><img src="images/logo.png" class="logo"/></a>
+			  </div>
+			  <div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+				  <li><a href="#">How It Works</a></li>
+				  <li><a href="#about">Projects</a></li>
+				  <li><a href="#contact">Volunteer</a></li>
+                  <li><a href="#resources">Resources</a></li>	  
+				</ul>
+			  </div>
+			  <!-- /Navigation-->			  
+			</div>
+        </div>
+      </div>
+    </div>
+	<!-- /Top wrapper -->	
+	
+    <!-- Breadcrumb -->
+	<div class="container breadcrub">
+	    <div>
+			<a class="homebtn left" href="#"></a>
+			<div class="left">
+				<ul class="bcrumbs">
+					<li>/</li>
+					<li><a href="#">Philippines</a></li>
+                    <li>/</li>
+					<li><a href="#">Projects</a></li>
+					<li>/</li>					
+					<li><a href="#" class="active">Project Name</a></li>					
+				</ul>				
+			</div>
+			<a class="backbtn right" href="#"></a>
+		</div>
+		<div class="clearfix"></div>
+		<div class="brlines"></div>
+	</div>	
+    <!-- /Breadcrumb -->
+
+	<!-- CONTENT -->
+	<div class="container">
+		<div class="container pagecontainer offset-0">	
+
+			<!-- SLIDER -->
+			<div class="col-md-8 details-slider">
+			
+				<div id="c-carousel">
+				<div id="wrapper">
+				<div id="inner">
+					<div id="caroufredsel_wrapper2">
+						<div id="carousel">
+							<img src="images/philippines/philippines2.jpg" alt=""/>
+							<img src="images/details-slider/slide2.jpg" alt=""/>
+							<img src="images/details-slider/slide3.jpg" alt=""/>
+							<img src="images/details-slider/slide4.jpg" alt=""/>
+							<img src="images/details-slider/slide5.jpg" alt=""/>
+							<img src="images/details-slider/slide6.jpg" alt=""/>						
+						</div>
+					</div>
+					
+				</div>
+				<div class="clearfix"></div>
+					
+					
+		</div>
+		</div> <!-- /c-carousel -->
+			
+			</div>
+			<!-- END OF SLIDER -->			
+			
+			<!-- RIGHT INFO -->
+			<div class="col-md-4 detailsright offset-0">
+				<div class="padding20">
+					<h4 class="lh1"><%= @project.title %></h4><br>
+                    <p><%= @project.description %><br></p>
+				</div>
+				
+				<div class="line3"></div>
+				
+				<div class="clearfix"></div><br/>
+				
+				<div class="hpadding20">
+					<a href="#" class="add2fav margtop5">Add to favourite</a>
+					<a href="#" class="booknow margtop20 btnmarg">Volunteer now</a>
+				</div>
+			</div>
+			<!-- END OF RIGHT INFO -->
+
+		</div>
+		<!-- END OF container-->
+		
+		<div class="container mt25 offset-0">
+
+			<div class="col-md-8 pagecontainer2 offset-0">
+				<div class="" style="background:#0099cc; height:40px; position:absolute; top:0px; width:100%"></div>
+		
+				<ul class="nav nav-tabs" id="myTab">
+					<li onclick="mySelectUpdate()" class=""><a data-toggle="tab" href="#description"><span class="summary"></span><span class="hidetext">Description</span>&nbsp;</a></li>
+					<li onclick="mySelectUpdate()" class="active"><a data-toggle="tab" href="#status"><span class="rates"></span><span class="hidetext">Project Status</span>&nbsp;</a></li>
+					<li onclick="mySelectUpdate()" class=""><a data-toggle="tab" href="#skills"><span class="preferences"></span><span class="hidetext">Skills Needed</span>&nbsp;</a></li>
+				</ul>			
+				<div class="tab-content4" >
+					<!-- TAB 1 -->				
+					<div id="description" class="tab-pane fade ">
+						<p class="hpadding20">
+		<%= @project.description %>				
+<br>
+						</p>							
+					</div>
+					<!-- TAB 2 -->
+					<div id="status" class="tab-pane fade active in">
+						<p class="hpadding20">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor aliquam felis, sit amet tempus nibh ullamcorper nec. Maecenas suscipit dolor at blandit congue. Sed adipiscing, odio feugiat pellentesque tincidunt, est leo vestibulum erat, ac pharetra massa justo ac lorem.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor aliquam felis, sit amet tempus nibh ullamcorper nec. Maecenas suscipit dolor at blandit congue. Sed adipiscing, odio feugiat pellentesque tincidunt, est leo vestibulum erat, ac pharetra massa justo ac lorem.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor aliquam felis, sit amet tempus nibh ullamcorper nec. Maecenas suscipit dolor at blandit congue. Sed adipiscing, odio feugiat pellentesque tincidunt, est leo vestibulum erat, ac pharetra massa justo ac lorem.<br>	<br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor aliquam felis, sit amet tempus nibh ullamcorper nec. Maecenas suscipit dolor at blandit congue. Sed adipiscing, odio feugiat pellentesque tincidunt, est leo vestibulum erat, ac pharetra massa justo ac lorem.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor aliquam felis, sit amet tempus nibh ullamcorper nec. Maecenas suscipit dolor at blandit congue. Sed adipiscing, odio feugiat pellentesque tincidunt, est leo vestibulum erat, ac pharetra massa justo ac lorem.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor aliquam felis, sit amet tempus nibh ullamcorper nec. Maecenas suscipit dolor at blandit congue. Sed adipiscing, odio feugiat pellentesque tincidunt, est leo vestibulum erat, ac pharetra massa justo ac lorem.<br>							
+					</div>	
+                    <!-- TAB 3 -->
+					<div id="skills" class="tab-pane fade active in">
+                    	<p class="hpadding20">
+													
+					</div>						
+				</div>
+			</div>
+			
+			<div class="col-md-4" >
+				
+				<div class="pagecontainer2 testimonialbox">
+					<div class="cpadding0 mt-10">
+						<span class="icon-quote"></span>
+						<p class="opensans size16 grey2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>
+						<span class="lato lblue bold size13"><i>by Frank from United Kingdom</i></span></p> 
+					</div>
+				</div>
+				
+				<div class="pagecontainer2 mt20 alsolikebox">
+					<div class="cpadding1">
+						<span class="icon-location"></span>
+						<h3 class="opensans">Similar Projects</h3>
+						<div class="clearfix"></div>
+					</div>
+					<div class="cpadding1 ">
+						<a href="#"><img src="images/smallthumb-1.jpg" class="left mr20" alt=""/></a>
+						<a href="#" class="dark"><b>Project Title</b></a><br/>
+						<span class="grey">short description</span><br/>
+					</div>
+					<div class="line5"></div>
+					<div class="cpadding1 ">
+						<a href="#"><img src="images/smallthumb-2.jpg" class="left mr20" alt=""/></a>
+						<a href="#" class="dark"><b>Project Title</b></a><br/>
+						<span class="grey">short description</span><br/>
+					</div>
+					<div class="line5"></div>			
+					<div class="cpadding1 ">
+						<a href="#"><img src="images/smallthumb-3.jpg" class="left mr20" alt=""/></a>
+						<a href="#" class="dark"><b>Project Title</b></a><br/>
+						<span class="grey">short description</span><br/>
+					</div>
+					<br/>
+                    
+				</div>				
+			</div>
+		</div>
+	</div>
+	<!-- END OF CONTENT -->
+	
+	<!-- FOOTER -->	
+		<div class="footerbgblack">
+			<div class="container">		
+				
+				<div class="col-md-3">
+					<div class="scont">
+						<a href="#" class="social1b"><img src="images/icon-facebook.png" alt=""/></a>
+						<a href="#" class="social2b"><img src="images/icon-twitter.png" alt=""/></a>
+						<a href="#" class="social3b"><img src="images/icon-gplus.png" alt=""/></a>
+						<a href="#" class="social4b"><img src="images/icon-youtube.png" alt=""/></a>
+						<br/><br/><br/>
+					</div>
+				</div>
+				<!-- End of column 1-->
+				
+				<div class="col-md-3">
+					<span class="ftitleblack">Top Projects</span>
+					<br/><br/>
+					<ul class="footerlist">
+						<li><a href="#">Lorem ipsum dolor</a></li>
+						<li><a href="#">Lorem ipsum dolor</a></li>
+						<li><a href="#">Lorem ipsum dolor</a></li>
+						<li><a href="#">Lorem ipsum dolor</a></li>
+						<li><a href="#">Lorem ipsum dolor</a></li>
+					</ul>
+				</div>
+				<!-- End of column 2-->		
+				
+				<div class="col-md-3">
+					<span class="ftitleblack">Needed Skills</span>
+					<br/><br/>
+					<ul class="footerlist">
+						<li><a href="#">Lorem ipsum dolor</a></li>
+						<li><a href="#">Lorem ipsum dolor</a></li>
+						<li><a href="#">Lorem ipsum dolor</a></li>
+						<li><a href="#">Lorem ipsum dolor</a></li>
+						<li><a href="#">Lorem ipsum dolor</a></li>
+					</ul>				
+				</div>
+				<!-- End of column 3-->		
+				
+				<div class="col-md-3 grey">
+					<span class="footerlistblack">Distribution List</span><p/>
+					<div class="relative">
+						<input type="email" class="form-control fccustom2" id="exampleInputEmail1" placeholder="Enter email">
+						<button type="submit" class="btn btn-default btncustom">Submit<img src="images/arrow.png" alt=""/></button>
+					</div>
+					<br/><br/>
+				</div>			
+				<!-- End of column 4-->			
+				
+			</div>	
+		</div>
+		
+		<div class="footerbg3black">
+			<div class="container center grey"> 
+			Born at #hackforhealth with support from @gwoborg + @randomhacks + @2ndmuse
+			</div>
+		</div>
+        
+	</div>
+	<!-- WRAP -->
+	
+	
+    <!-- Javascript -->
+	
+    <!-- This page JS -->
+	<script src="assets/js/js-index7.js"></script>	
+	
+    <!-- Custom functions -->
+    <script src="assets/js/functions.js"></script>
+	
+    <!-- Picker UI-->	
+	<script src="assets/js/jquery-ui.js"></script>		
+	
+	<!-- Easing -->
+    <script src="assets/js/jquery.easing.js"></script>
+	
+    <!-- jQuery KenBurn Slider  -->
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+	
+   <!-- Nicescroll  -->	
+	<script src="assets/js/jquery.nicescroll.min.js"></script>
+	
+    <!-- CarouFredSel -->
+    <script src="assets/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script src="assets/js/helper-plugins/jquery.touchSwipe.min.js"></script>
+	<script type="text/javascript" src="assets/js/helper-plugins/jquery.mousewheel.min.js"></script>
+	<script type="text/javascript" src="assets/js/helper-plugins/jquery.transit.min.js"></script>
+	<script type="text/javascript" src="assets/js/helper-plugins/jquery.ba-throttle-debounce.min.js"></script>
+	
+    <!-- Custom Select -->
+	<script type='text/javascript' src='assets/js/jquery.customSelect.js'></script>	
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
